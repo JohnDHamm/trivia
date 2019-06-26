@@ -1,5 +1,11 @@
 const sharedStyles = {
-    COLOR_GREEN: '#338822'
+    COLOR: {
+        GREEN: '#338822',
+    },
+    SCREEN: {
+        SMALL: '600px'
+    }
+
 }
 
 export default sharedStyles

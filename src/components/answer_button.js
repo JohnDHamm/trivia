@@ -13,7 +13,7 @@ const Button = styled.div`
     padding-left: 25px;
     margin: 1rem 0;
 
-    @media screen and (max-width: 600px)  {
+    @media screen and (max-width: ${sharedStyles.SCREEN.SMALL})  {
         height: 40px;
         line-height: 40px;
         font-size: 1rem;
@@ -23,9 +23,9 @@ const Button = styled.div`
     }
 
     :hover {
-        color: ${sharedStyles.COLOR_GREEN};
+        color: ${sharedStyles.COLOR.GREEN};
         transform: scale(1.025);
-        border: 2px solid ${sharedStyles.COLOR_GREEN};
+        border: 2px solid ${sharedStyles.COLOR.GREEN};
     }
 `
 export default function AnswerButton({answer, isCorrectAnswer, submitAnswer}) {
