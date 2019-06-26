@@ -24,7 +24,6 @@ export default class Game extends Component {
     }
 
     handleResult(result) {
-        // console.log(result ? "right!" : 'wrong!')
         if (result) {
             this.setState({score: this.state.score + 1})
         }
