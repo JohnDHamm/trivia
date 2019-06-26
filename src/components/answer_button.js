@@ -19,7 +19,7 @@ const Button = styled.div`
         font-size: 1rem;
         padding-left: 15px;
         border-radius: 20px;
-        margin: 0.5rem 0;
+        margin: 0.75rem 0;
     }
 
     :hover {
