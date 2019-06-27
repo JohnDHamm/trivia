@@ -51,7 +51,7 @@ const AnswersContainer = styled.div`
 
 export default class Question extends Component {
 
-    renderAnswers() {
+    renderAnswers = () => {
         const { incorrect_answers, correct_answer } = this.props.currentQuestion
         const displayAnswers = []
         incorrect_answers.forEach(answer => {
