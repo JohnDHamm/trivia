@@ -45,16 +45,13 @@ const GameOver = styled.div`
 `
 
 export default class Game extends Component {
-    constructor(props){
-        super(props)
-        this.state = {
-            gameReady: false,
-            gameOver: false,
-            currentQuestion: {},
-            score: 0,
-            roundTotalQuestions: 0,
-            questionCounter: 1
-        }
+    state = {
+        gameReady: false,
+        gameOver: false,
+        currentQuestion: {},
+        score: 0,
+        roundTotalQuestions: 0,
+        questionCounter: 1
     }
 
     componentDidMount() {
@@ -64,7 +61,7 @@ export default class Game extends Component {
         }, () => this.setState({gameReady: true}))
     }
 
-    handleResult(result) {
+    handleResult = result => {
         if (result) {
             this.setState({score: this.state.score + 1})
         }
