@@ -12,8 +12,7 @@ const Button = styled.div`
     border-radius: 30px;
     padding-left: 25px;
     margin: 1rem 0;
-
-    @media screen and (max-width: ${sharedStyles.SCREEN.SMALL})  {
+    @media screen and (max-width: ${sharedStyles.SCREEN.SMALL}) {
         height: 40px;
         line-height: 40px;
         font-size: 1rem;

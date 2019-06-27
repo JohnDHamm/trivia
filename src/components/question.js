@@ -32,7 +32,6 @@ const NumberCircle = styled.div`
     color: #DDD;
     font-size: 2rem;
     margin-right: 1.5rem;
-    
     @media screen and (max-width: ${sharedStyles.SCREEN.SMALL}) {
         height: 40px;
         width: 40px;
@@ -45,7 +44,6 @@ const AnswersContainer = styled.div`
     width: 75%;
     max-width: 800px;
     margin: 0 auto;
-
     @media screen and (max-width: ${sharedStyles.SCREEN.SMALL}) {
         width: 90%;
     }
